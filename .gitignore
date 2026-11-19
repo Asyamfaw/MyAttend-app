@@ -1,0 +1,149 @@
+
+# ==========================================
+# FLUTTER & DART
+# ==========================================
+
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+/coverage/
+.packages
+**/doc/api/
+
+# Flutter generated files
+**/generated_plugin_registrant.dart
+**/generated_plugin_registrant.cc
+**/generated_plugins.cmake
+
+# ==========================================
+# IDE & EDITORS
+# ==========================================
+
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+
+# ==========================================
+# OPERATING SYSTEM
+# ==========================================
+
+.DS_Store
+Thumbs.db
+Desktop.ini
+.Trash-*
+*.swp
+*.swo
+*~
+
+# ==========================================
+# LOGS & TEMPORARY FILES
+# ==========================================
+
+*.log
+*.tmp
+*.temp
+*.bak
+*.old
+*.orig
+*.rej
+*.pyc
+*.class
+
+# ==========================================
+# ANDROID
+# ==========================================
+
+/android/local.properties
+/android/.gradle/
+/android/captures/
+/android/key.properties
+/android/app/debug/
+/android/app/profile/
+/android/app/release/
+
+# Android signing keys
+*.jks
+*.keystore
+
+# ==========================================
+# IOS & MACOS
+# ==========================================
+
+**/ios/Flutter/.last_build_id
+**/ios/Flutter/Generated.xcconfig
+**/ios/Flutter/flutter_export_environment.sh
+**/ios/ServiceDefinitions.json
+**/ios/Runner/GeneratedPluginRegistrant.*
+**/ios/Pods/
+**/ios/.symlinks/
+**/ios/Flutter/.flutter-plugins-dependencies
+**/macos/Pods/
+
+# ==========================================
+# LINUX & WINDOWS BUILD
+# ==========================================
+
+/linux/flutter/ephemeral/
+/windows/flutter/ephemeral/
+
+# ==========================================
+# ENVIRONMENT VARIABLES
+# ==========================================
+
+.env
+.env.*
+!.env.example
+
+# ==========================================
+# FIREBASE
+# ==========================================
+
+.firebase/
+firebase-debug.log*
+firestore-debug.log*
+ui-debug.log*
+
+# Firebase Admin SDK credentials
+serviceAccountKey.json
+service-account*.json
+*firebase-adminsdk*.json
+
+# ==========================================
+# PRIVATE KEYS & CERTIFICATES
+# ==========================================
+
+*.pem
+*.p12
+*.pfx
+*.key
+*.crt
+
+# ==========================================
+# PROJECT-SPECIFIC
+# ==========================================
+
+# Local databases
+*.sqlite
+*.sqlite3
+*.db
+
+# Backup files
+*.backup
+*.dump
+
+# ==========================================
+# MISCELLANEOUS
+# ==========================================
+
+.history/
+.svn/
+.swiftpm/
+.build/
+.buildlog
+.migrate_working_dir/
+.widget_preview/

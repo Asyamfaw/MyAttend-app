@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+
+<html lang="id"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport"/><meta content="mobile_stack" name="shell-type"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{width:100%;min-height:100%;margin:0;padding:0;}body{overscroll-behavior-y:none;}.pb-safe{padding-bottom:env(safe-area-inset-bottom,0px);}.pt-safe{padding-top:env(safe-area-inset-top,0px);}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{colors:{"surface-container-lowest":"#ffffff","on-secondary":"#ffffff","surface-container-low":"#f1f3ff","surface-tint":"#495f84","primary-fixed":"#d6e3ff","secondary-fixed":"#98f4da","tertiary-fixed":"#81f9c5","surface-container-highest":"#d7e2ff","on-primary-fixed":"#001b3d","background":"#f9f9ff","surface-container":"#e8edff","on-tertiary-container":"#1fa779","error":"#ba1a1a","inverse-primary":"#b1c7f2","tertiary-fixed-dim":"#63dcaa","inverse-surface":"#1d3052","surface-dim":"#cadaff","surface-container-high":"#e0e8ff","on-error":"#ffffff","tertiary-container":"#003322","on-surface-variant":"#44474e","surface-bright":"#f9f9ff","primary-fixed-dim":"#b1c7f2","on-secondary-container":"#00725e","error-container":"#ffdad6","on-primary":"#ffffff","on-tertiary-fixed-variant":"#005138","on-secondary-fixed-variant":"#005142","on-secondary-fixed":"#002019","primary-container":"#142c4e","tertiary":"#001c11","on-primary-container":"#7e94bc","on-tertiary":"#ffffff","on-primary-fixed-variant":"#31476b","outline-variant":"#c4c6cf","on-surface":"#041b3c","primary":"#001735","on-background":"#041b3c","secondary":"#006b58","on-tertiary-fixed":"#002114","secondary-container":"#98f4da","on-error-container":"#93000a","surface-variant":"#d7e2ff","secondary-fixed-dim":"#7cd7be","outline":"#74777f","surface":"#f9f9ff","inverse-on-surface":"#edf0ff"},borderRadius:{DEFAULT:"0.25rem",lg:"0.5rem",xl:"0.75rem",full:"9999px"},spacing:{"margin":"1rem","space-xs":"0.25rem","space-sm":"0.5rem","gutter":"1rem","space-lg":"1.5rem","space-md":"1rem","space-xl":"2rem"},fontFamily:{"body-sm":["Plus Jakarta Sans"],"headline-lg":["Plus Jakarta Sans"],"headline-md":["Plus Jakarta Sans"],"body-lg":["Plus Jakarta Sans"],"label-sm":["Plus Jakarta Sans"],"headline-sm":["Plus Jakarta Sans"],"headline-lg-mobile":["Plus Jakarta Sans"],"label-md":["Plus Jakarta Sans"],"label-lg":["Plus Jakarta Sans"],"body-md":["Plus Jakarta Sans"]},fontSize:{"body-sm":["12px",{lineHeight:"16px",fontWeight:"400"}],"headline-lg":["30px",{lineHeight:"38px",fontWeight:"700"}],"headline-md":["20px",{lineHeight:"28px",fontWeight:"600"}],"body-lg":["16px",{lineHeight:"24px",fontWeight:"400"}],"label-sm":["10px",{lineHeight:"14px",fontWeight:"700"}],"headline-sm":["18px",{lineHeight:"24px",fontWeight:"600"}],"headline-lg-mobile":["24px",{lineHeight:"32px",fontWeight:"700"}],"label-md":["12px",{lineHeight:"16px",fontWeight:"600"}],"label-lg":["14px",{lineHeight:"20px",fontWeight:"600"}],"body-md":["14px",{lineHeight:"20px",fontWeight:"400"}]}}}}</script><style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head><body class="bg-surface font-body-md text-on-surface flex flex-col min-h-screen relative antialiased selection:bg-secondary-container selection:text-on-secondary-container"><header class="fixed top-0 inset-x-0 z-50 pt-safe bg-surface/85 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="h-10 px-5 flex items-center justify-between text-on-surface select-none"><span class="font-label-md text-label-md font-semibold tracking-tight">08:55</span><div class="flex items-center gap-1.5"><span class="material-symbols-outlined text-[16px]">signal_cellular_4_bar</span><span class="material-symbols-outlined text-[16px]">wifi</span><span class="material-symbols-outlined text-[18px]">battery_full</span></div></div><div class="h-14 px-margin flex items-center justify-between"><div class="flex items-center gap-space-sm"><button aria-label="Kembali" class="w-11 h-11 -ml-space-xs rounded-full flex items-center justify-center text-on-surface hover:bg-surface-container active:scale-95 transition-transform" onclick="history.back()" type="button"><span class="material-symbols-outlined text-[24px]">arrow_back</span></button><h1 class="font-headline-sm text-headline-sm text-on-surface tracking-tight truncate max-w-[200px]">Dashboard Presensi</h1></div><div class="flex items-center gap-space-xs"><button aria-label="Bantuan &amp; Notifikasi" class="w-11 h-11 rounded-full flex items-center justify-center text-on-surface-variant hover:bg-surface-container active:scale-95 transition-transform" type="button"><span class="material-symbols-outlined text-[22px]">help_outline</span></button><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center shrink-0"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div></header><main class="flex-1 flex flex-col relative w-full pt-24 pb-12 px-margin bg-surface"><div class="flex flex-col w-full space-y-4">
+<!-- Top App Actions / Header Summary Strip -->
+<div class="flex items-center justify-between px-1">
+<div class="flex flex-col">
+<span class="font-headline-sm text-headline-sm text-on-surface tracking-tight">Presensi Digital</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider">Sistem Kehadiran Karyawan</span>
+</div>
+<div class="flex items-center space-x-1.5">
+<button aria-label="Riwayat Cepat" class="w-10 h-10 rounded-full flex items-center justify-center bg-surface-container-low text-on-surface hover:bg-surface-container active:scale-95 transition-all shadow-sm" type="button">
+<span class="material-symbols-outlined text-[20px]">history</span>
+</button>
+<button aria-label="Keluar Sesi" class="w-10 h-10 rounded-full flex items-center justify-center bg-surface-container-low text-error hover:bg-error-container active:scale-95 transition-all shadow-sm" type="button">
+<span class="material-symbols-outlined text-[20px]">logout</span>
+</button>
+</div>
+</div>
+<!-- Account Information Card -->
+<div class="w-full bg-surface-container-lowest rounded-xl p-4 shadow-sm flex items-center justify-between">
+<div class="flex items-center space-x-3 min-w-0">
+<div class="w-12 h-12 rounded-full bg-surface-container-high flex items-center justify-center shrink-0 text-primary">
+<span class="material-symbols-outlined text-[24px]">person</span>
+</div>
+<div class="flex flex-col min-w-0">
+<div class="flex items-center space-x-1.5">
+<span class="w-2 h-2 rounded-full bg-secondary shrink-0"></span>
+<span class="font-label-md text-label-md text-secondary tracking-tight">Akun Aktif</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface font-medium truncate mt-0.5">gooby771@gmail.com</p>
+</div>
+</div>
+<div class="shrink-0 pl-2">
+<span class="inline-flex items-center justify-center w-7 h-7 rounded-full bg-secondary-container text-on-secondary-container">
+<span class="material-symbols-outlined text-[16px]">verified_user</span>
+</span>
+</div>
+</div>
+<!-- Daily Attendance Card (Primary Focus) -->
+<div class="w-full bg-surface-container-lowest rounded-xl p-4 shadow-sm space-y-4">
+<!-- Card Header with Pill Badge & Date -->
+<div class="flex items-start justify-between pb-3 border-b-0">
+<div class="space-y-1">
+<div class="inline-flex items-center space-x-1.5 bg-secondary-container text-on-secondary-container px-2.5 py-1 rounded-full">
+<span class="material-symbols-outlined text-[15px]" style="font-variation-settings: 'FILL' 1;">check_circle</span>
+<span class="font-label-md text-label-md">Presensi Hari Ini Selesai</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant pt-0.5">Rabu, 18 November 2026</p>
+</div>
+<span class="font-label-sm text-label-sm bg-surface-container text-on-surface-variant px-2 py-0.5 rounded-full">
+        Shift Pagi
+      </span>
+</div>
+<!-- Attendance Metrics Grid -->
+<div class="grid grid-cols-3 gap-2 bg-surface-container-low rounded-xl p-3">
+<!-- Jam Masuk -->
+<div class="flex flex-col items-center justify-center text-center p-1">
+<div class="flex items-center space-x-1 text-secondary mb-1">
+<span class="material-symbols-outlined text-[16px]">login</span>
+<span class="font-label-sm text-label-sm uppercase tracking-wider">Masuk</span>
+</div>
+<span class="font-headline-sm text-headline-sm text-on-surface tracking-tight">08:55</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant mt-0.5">Tepat Waktu</span>
+</div>
+<!-- Jam Pulang -->
+<div class="flex flex-col items-center justify-center text-center p-1 bg-surface-container-lowest rounded-lg shadow-sm">
+<div class="flex items-center space-x-1 text-on-primary-container mb-1">
+<span class="material-symbols-outlined text-[16px]">logout</span>
+<span class="font-label-sm text-label-sm uppercase tracking-wider">Pulang</span>
+</div>
+<span class="font-headline-sm text-headline-sm text-on-surface tracking-tight">08:56</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant mt-0.5">Selesai Kerja</span>
+</div>
+<!-- Durasi -->
+<div class="flex flex-col items-center justify-center text-center p-1">
+<div class="flex items-center space-x-1 text-on-surface-variant mb-1">
+<span class="material-symbols-outlined text-[16px]">schedule</span>
+<span class="font-label-sm text-label-sm uppercase tracking-wider">Durasi</span>
+</div>
+<span class="font-headline-sm text-headline-sm text-on-surface tracking-tight">0j 1m</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant mt-0.5">Total Jam</span>
+</div>
+</div>
+<!-- Symmetrical Photo Verification Section -->
+<div class="space-y-2 pt-1">
+<div class="flex items-center justify-between">
+<span class="font-label-md text-label-md text-on-surface">Dokumentasi Verifikasi</span>
+<span class="font-label-sm text-label-sm text-secondary flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]">face</span> Terverifikasi Biometrik
+        </span>
+</div>
+<div class="grid grid-cols-2 gap-3">
+<!-- Foto Masuk -->
+<div class="flex flex-col space-y-1.5">
+<div class="relative w-full aspect-[4/3] rounded-xl overflow-hidden bg-surface-container shadow-sm group">
+<img class="w-full h-full object-cover" data-alt="Close-up biometric check-in verification selfie portrait of an energetic young Indonesian male corporate trainee inside a bright, modern corporate office reception with soft daylight ambient lighting and clean architectural interior." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDQcm94N9Un2KfT8hiNc3y420ZYLpyS8CfEyduDQDO0k4MbN20fw732jfWqyDP4R7fuNYwrv8qdA_sXXq9Y9zuBbAyf_3-AeZcLMAr3uvaCmfzRPTM1I1ZQ1l-X7S-_6prx9wHi0LuRlZc9Mjzanchfjg06R_pPFRxtj9NbdaN0TIjJdulyoVsxjCOuDijoUEKy9FuSCCTgLbsGCXjiTAn7NbiHSaUhjF_m2ytGydI"/>
+<div class="absolute top-2 right-2 bg-secondary text-on-secondary rounded-full p-0.5 shadow-md flex items-center justify-center">
+<span class="material-symbols-outlined text-[14px]">done</span>
+</div>
+<div class="absolute bottom-1.5 inset-x-1.5 bg-primary/80 backdrop-blur-sm rounded px-1.5 py-0.5 text-center">
+<span class="font-label-sm text-label-sm text-on-primary">08:55 WIB</span>
+</div>
+</div>
+<div class="flex items-center justify-between px-0.5">
+<span class="font-label-md text-label-md text-on-surface">Foto Masuk</span>
+<span class="material-symbols-outlined text-[16px] text-secondary">check_circle</span>
+</div>
+</div>
+<!-- Foto Pulang -->
+<div class="flex flex-col space-y-1.5">
+<div class="relative w-full aspect-[4/3] rounded-xl overflow-hidden bg-surface-container shadow-sm group">
+<img class="w-full h-full object-cover" data-alt="Formal attendance check-out verification selfie photograph of an Indonesian young professional in a neat collared shirt standing in front of office partition wall under gentle indoor fluorescents." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDFIQJnEvzV2XEmId8velNxOihFU7M_crskfm5tpGVPw45UCF03_nOYZjMLeJtj3CQEg_88OZyqf3LTq1Rb73MruAwfuYpezMAYGgYeoAx26K2LPcN3d8PPSxIRGzyuChB1Mm3nlafOSUTDuIutZMJgG9nN-Ak5YvEChjSEWpTFnLsN7CWtMrvnAVrsThWqRsfhnl69ijSjqIQxk85glRftv1VZPeXW98K882Dc1VI"/>
+<div class="absolute top-2 right-2 bg-secondary text-on-secondary rounded-full p-0.5 shadow-md flex items-center justify-center">
+<span class="material-symbols-outlined text-[14px]">done</span>
+</div>
+<div class="absolute bottom-1.5 inset-x-1.5 bg-primary/80 backdrop-blur-sm rounded px-1.5 py-0.5 text-center">
+<span class="font-label-sm text-label-sm text-on-primary">08:56 WIB</span>
+</div>
+</div>
+<div class="flex items-center justify-between px-0.5">
+<span class="font-label-md text-label-md text-on-surface">Foto Pulang</span>
+<span class="material-symbols-outlined text-[16px] text-secondary">check_circle</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- History Shortcut Action Button -->
+<div class="pt-2">
+<button class="w-full min-h-[52px] bg-surface-container-lowest hover:bg-surface-container-low text-primary active:scale-[0.98] transition-all rounded-xl shadow-sm flex items-center justify-center space-x-2 py-3 px-4" type="button">
+<span class="material-symbols-outlined text-[20px] text-primary">history</span>
+<span class="font-label-lg text-label-lg tracking-wide">Lihat Riwayat Presensi</span>
+</button>
+</div>
+</div></main><div class="fixed bottom-0 inset-x-0 z-50 pointer-events-none pb-safe flex justify-center items-center h-10"><div class="w-32 h-1 rounded-full bg-on-surface/25"></div></div></body></html>
