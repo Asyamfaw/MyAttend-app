@@ -251,9 +251,9 @@ Terima kasih sudah mampir dan mencoba project ini. Jangan lupa sesuaikan konfigu
 
 *Software Developer Student | Web Development Enthusiast*
 
-[![GitHub](https://img.shields.io/badge/GitHub-Asyamfaw-181717?style=for-the-badge&logo=github)](https://github.com/Asyamfaw)
-[![Instagram](https://img.shields.io/badge/Instagram-Follow-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/simakan.siang/)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/asyammahdifawwaz/)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/Asyamfaw)
+[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=flat&logo=instagram&logoColor=white)](https://www.instagram.com/simakan.siang/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/asyammahdifawwaz/)
 
 ---
 
